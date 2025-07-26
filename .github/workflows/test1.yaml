@@ -1,0 +1,11 @@
+name: Hello World
+on: push
+
+jobs:
+  hello_on_linux:
+    runs-on: ununtu-latest
+    steps:
+      - name: watch_env
+        run: |
+          pwd
+          python --version
